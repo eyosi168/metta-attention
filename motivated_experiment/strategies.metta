@@ -6,7 +6,7 @@
 ; --------------------------------------------------
 
 (= (communityModules)
-    (identifyAllHebbianModules)
+    (identifyStaticKGModules)
 )
 
 (= (communityScore $module)
