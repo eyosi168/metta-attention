@@ -14,10 +14,7 @@
 
 ; Toggle boolean-like values (mirrors Python _parse_bool)
 (= (goalCandidatesToggle $value)
-   (if (== $value False)  False
-       (if (== $value false) False
-           (if (== $value 0)  False
-               (if (== $value "0") False True)))))
+    (if (== $value False) False True))
 
 ; ---------------------------------------------------------------------------
 ; List helpers
